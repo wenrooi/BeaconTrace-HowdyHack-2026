@@ -1,0 +1,32 @@
+# --- Arduino IDE Build Artifacts ---
+# Ignore the temporary build directories where binaries are compiled
+build/
+build-tmp/
+_build/
+
+# Ignore compiled binary files outputted by the IDE
+*.hex
+*.bin
+*.elf
+*.eep
+*.map
+*.sym
+*.lss
+
+# --- Arduino IDE 2.x Configuration & Logs ---
+# Ignore local workspace settings and background language server logs
+.arduino/
+.theia/
+*.log
+inols*.log
+
+# --- Operating System Files ---
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
